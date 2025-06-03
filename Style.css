@@ -1,0 +1,53 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/* Container for the form */
+.form-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #aaa;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input and textarea styling */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Error and success message styling */
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
